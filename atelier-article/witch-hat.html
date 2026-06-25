@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The World of Witch Hat Atelier</title>
+    <link rel="icon" type="image/x-icon" href="c:\Users\kinga\OneDrive\Desktop\gdornevil projects\atelier-article\atelier-logo.png">
+    <link href="https://fonts.cdnfonts.com/css/enchanted-land" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="css/atelier.css" rel="stylesheet">
+</head>
+<body>
+    <header class="witch-hat-header">
+        <div class="header-container">
+            <div class="main-header">
+                <h1 class="grimoire-title">
+                    Witch Hat Atelier Atlas
+                </h1>
+            </div>
+        </div>
+    </header>
+    <main>
+    <div class="book-container">
+        <div class="tab-wrapper">
+            <div class="tabs-container">
+                <button class="tab"><span data-tab-value="home">Home</span></button>
+                <button class="tab"><span data-tab-value="locations">Locations</span></button>
+                <button class="tab"><span data-tab-value="magic">Magic</span></button>
+                <button class="tab"><span data-tab-value="bestiary">Bestiary</span></button>
+                <button class="tab"><span data-tab-value="characters">Characters</span></button>
+                <button class="tab"><span data-tab-value="plants">Plants</span></button>
+                <button class="tab"><span data-tab-value="contraptions">Contraptions</span></button>
+                <button class="tab"><span data-tab-value="organizations">Organizations</span></button>
+                <button class="tab"><span data-tab-value="volumes">Volumes</span></button>
+            </div>
+        </div>
+
+        <div class="tab-content">
+            <div class="content-section">
+                <section class="tabs_tab active" id="home" data-tab-info>
+                    <p>Welcome to the Witch Hat Atlas!</p>
+                </section>
+                <section class="tabs_tab" id="locations" data-tab-info>
+                    <h2 id="location-title">
+                        The Zozah Peninsula
+                    </h2>
+                    <div class="map-container">
+                        <div class="map-aspect-wrapper">
+                            <img src="Map-of-Zozah.jpg" alt="Map of Zozah Peninsula" class="map-image">
+                            <div class="map-pin" style="top: 67%; left: 62.6%;" onclick="scrollToSection('village')">
+                                <div class="map-icon">V</div>
+                            </div>
+                            <div class="map-pin" style="top: 62.8%; left: 62%;" onclick="scrollToSection('atelier')">
+                                <div class="map-icon">Q</div>
+                            </div>
+                            <div class="map-pin" style="top: 29%; left: 43.5%;" onclick="scrollToSection('dadah-range')">
+                                <div class="map-icon">D</div>
+                            </div>
+                            <div class="map-pin" style="top: 62.5%; left: 53.4%;" onclick="scrollToSection('kalhn')">
+                                <div class="map-icon">K</div>
+                            </div>
+                            <div class="map-pin" style="top: 85%; left: 83%;" onclick="scrollToSection('tower')">
+                                <div class="map-icon">T</div>
+                            </div>
+                            <div class="map-pin" style="top: 60%; left: 59.3%;" onclick="scrollToSection('naakiwan-downs')">
+                                <div class="map-icon">N</div>
+                            </div>
+                            <div class="map-pin" style="top: 47.3%; left: 22.5%;" onclick="scrollToSection('argentgard')">
+                                <div class="map-icon">A</div>
+                            </div>
+                            <div class="map-pin" style="top: 44.5%; left: 44%;" onclick="scrollToSection('forest')">
+                                <div class="map-icon">F</div>
+                            </div>
+                            <div class="map-pin" style="top: 40.5%; left: 90%;" onclick="scrollToSection('cape-romonon')">
+                                <div class="map-icon">C</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="witch-text">
+                        <h2>Locations</h2>
+                    </div>
+                    <div id="quifrey-house">
+                        <figure>
+                            <img src="atelier-images/Qifrey's_Atelier.jpg" alt="quifrey">
+                            <figcaption>Quifrey's House</figcaption>
+                        </figure>
+                    </div>
+                    <div id="dadah-range">
+                        <figure>
+                            <img src="atelier-images/Dadah_Range.png" alt="range">
+                            <figcaption>Dadah Range</figcaption>
+                        </figure>
+                    </div>
+                </section>
+                <section class="tabs_tab" id="magic" data-tab-info>
+                </section>
+                <section class="tabs_tab" id="bestiary" data-tab-info>
+                </section>
+                <section class="tabs_tab" id="characters" data-tab-info>
+                </section>
+                <section class="tabs_tab" id="plants" data-tab-info>
+                </section>
+                <section class="tabs_tab" id="contraptions" data-tab-info>
+                </section>
+                <section class="tabs_tab" id="organizations" data-tab-info>
+                </section>
+                <section class="tabs_tab" id="volumes" data-tab-info>
+                    <div class="volume">
+                        <h2>Volumes</h2>
+                        <p>Each volume of the Witch Hat Atelier franchise. Click on each<br>one to see what each volume is about.</p>
+                        <div class="shadow">
+                            <img src="atelier-images/volume1.jpg" alt="coco-vol">
+                            <div class="text-box">
+                                Hello hello
+                            </div>
+                        </div>
+                        <div class="shadow">
+                            <img src="atelier-images/volume2.jpg" alt="agg-vol">
+                            <div class="text-box">
+                                <p>Hello hello</p>
+                            </div>
+                        </div>
+                        <div class="shadow">
+                            <img src="atelier-images/volume3.jpg" alt="quif-vol">
+                            <div class="text-box">
+                                <p>Hello hello</p>
+                            </div>
+                        </div>
+                        <div class="shadow">
+                            <img src="atelier-images/volume4.jpg" alt="rich-vol">
+                            <div class="text-box">
+                                <p>Hello hello</p>
+                            </div>
+                        </div>
+                        <div class="shadow">
+                            <img src="atelier-images/volume5.jpg" alt="tetia-vol">
+                            <div class="text-box">
+                                <p>Hello hello</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    </main>
+    <script type="text/javascript">
+        const tabs = document.querySelectorAll('[data-tab-value]')
+        const tabInfos = document.querySelectorAll('[data-tab-info]')
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                const target = document.querySelector(`#${tab.dataset.tabValue}`);
+                tabInfos.forEach(tabInfo => {
+                    tabInfo.classList.remove('active')
+                    target.classList.add('active');
+                });
+            });
+        });
+
+        document.querySelectorAll('.volume img').forEach(img => {
+            img.addEventListener('click', () => {
+                const parent = img.closest('div');
+                const textBox = parent.querySelector('.text-box');
+
+                if (!textBox) return;
+
+                textBox.style.display =
+                    textBox.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+
+        document.querySelectorAll('.tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                document.querySelectorAll('.tab-content').forEach(c => {
+                    c.classList.remove('active');
+                });
+
+                const target = tab.getAtrribute('data-tab-value');
+                const content = document.getElementById(target);
+
+                void content.offsetWidth;
+
+                content.classList.add('active');
+
+            });
+        });
+
+        function scrollToSection(id) {
+            document.getElementById(id).scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+        }
+    </script>
+</body>
+    
